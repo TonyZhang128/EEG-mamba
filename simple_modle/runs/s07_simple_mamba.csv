@@ -1,0 +1,13 @@
+variant,metric,mean,std
+plain,accuracy,0.25,0.0
+plain,balanced_accuracy,0.25,0.0
+plain,macro_f1,0.19642857142857142,0.0
+plain,log_loss,1.3985350131988525,0.0
+channel,accuracy,0.375,0.0
+channel,balanced_accuracy,0.375,0.0
+channel,macro_f1,0.3630952380952381,0.0
+channel,log_loss,1.3646471500396729,0.0
+two_level,accuracy,0.375,0.0
+two_level,balanced_accuracy,0.375,0.0
+two_level,macro_f1,0.26785714285714285,0.0
+two_level,log_loss,1.333176851272583,0.0

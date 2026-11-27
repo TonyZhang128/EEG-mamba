@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dll
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets and preprocessed EEG data
+data/
+*.npz
+*.npy
+*.mat
+*.edf
+*.bdf
+*.gdf
+*.set
+*.fdt
+*.eeg
+
+# Model checkpoints and exported models
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.h5
+*.hdf5
+*.safetensors
+checkpoints/
+
+# Experiment and framework outputs
+wandb/
+mlruns/
+lightning_logs/
+runs/*/checkpoints/
+runs/*/events.out.tfevents.*
+*.log
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
